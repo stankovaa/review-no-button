@@ -28,7 +28,7 @@ st.markdown(
       /* App background (main area) */
       .stApp {
         background: "rgb(24,28,41)";  /* pick your dark color */
-        color: #ffffff;
+        color: "rgb(24,28,41)";
       }
 
       /* Main content container */
@@ -1217,3 +1217,4 @@ if st.session_state.show_email_form:
 #         st.dataframe(chart3_df, use_container_width=True)
 
   
+
