@@ -1,1 +1,7 @@
-streamlit>=1.26.0
+streamlit>=1.54
+numpy
+pandas
+plotly
+pyairtable>=2.3
+kaleido==0.2.1
+Pillow
