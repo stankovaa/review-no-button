@@ -27,7 +27,7 @@ st.markdown(
     <style>
       /* App background (main area) */
       .stApp {
-        background: #0b1220;  /* pick your dark color */
+        background: "rgb(24,28,41)";  /* pick your dark color */
         color: #ffffff;
       }
 
@@ -1215,4 +1215,5 @@ if st.session_state.show_email_form:
 #             "Difference (M)": difference_vals / 1e6,
 #         })
 #         st.dataframe(chart3_df, use_container_width=True)
+
   
